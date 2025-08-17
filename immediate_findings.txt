@@ -1,0 +1,31 @@
+Total reviews: 124
+Overall mean score: 7.05, median: 7.50
+Sections most correlated with overall score (desc):
+  - Facilities: corr 0.764
+  - Cleanliness: corr 0.729
+  - Comfort: corr 0.704
+  - Value for money: corr 0.699
+  - Staff: corr 0.635
+  - Location: corr 0.460
+Sections with lowest average scores (need improvement):
+  - Facilities: mean 6.83
+  - Cleanliness: mean 6.92
+  - Value for money: mean 7.18
+Number of low reviews (overall ≤ 4): 18
+Average section scores for low reviews (lowest first):
+  - Facilities: 3.19
+  - Value for money: 3.33
+  - Cleanliness: 3.61
+  - Staff: 4.12
+  - Comfort: 4.31
+Top negative words (from negative reviews):
+  - shower: 7
+  - bed: 7
+  - no: 6
+  - out: 5
+  - very: 5
+  - people: 5
+  - rooms: 5
+  - like: 5
+  - unit: 4
+  - dirty: 4

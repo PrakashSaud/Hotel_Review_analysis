@@ -1,0 +1,7 @@
+Total reviews: 124
+Overall column detected: Review score
+Positive text columns used: Positive review
+Negative text columns used: Negative review
+Section summary saved to section_summary.csv
+Simple linear regression to predict overall score from sections (R^2 = 1.000)
+Regression coefficients saved to regression_coeffs.csv

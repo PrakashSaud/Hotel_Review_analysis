@@ -1,0 +1,19 @@
+
+Power BI Import Instructions:
+1. Open Power BI Desktop.
+2. Click 'Get Data' -> 'Text/CSV' and select the CSV file(s) from the exported folder.
+   Recommended files to import:
+   - section_level_data_for_powerbi.csv (detailed row-level scores - for slicers & drillthrough)
+   - dashboard_agg_by_month.csv (monthly aggregates for trend visuals) [if available]
+   - low_reviews_detail.csv (to inspect low-score cases)
+   - top_negative_words.csv (to create word bars or tag cloud using Power BI visuals)
+3. After importing, mark 'review_date_parsed' as Date type and 'year_month' as text or date (first day of month) as you prefer.
+4. Create relationships if you import multiple files (use 'year_month' or review_date_parsed as join keys).
+5. Suggested visuals to create:
+   - Line chart: monthly avg overall score (use dashboard_agg_by_month.csv)
+   - Bar chart: average score by section (use section_level_data_for_powerbi aggregated)
+   - Table: low_reviews_detail with filters for staff/room/date
+   - Slicer: year_month
+   - KPI cards: overall mean score, number of reviews, low review count
+6. Use the 'Top Negative Words' to create a bar chart or use a custom word cloud visual.
+7. Publish to Power BI Service when ready.
